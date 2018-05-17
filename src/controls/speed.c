@@ -20,6 +20,9 @@ void set_speed(double value)
 	dprintf(1, "%.2f", value);
 	write(1, "\n", my_strlen("\n"));
 	s = get_next_line(0);
-	if (detect_end(s) == 1)
+	if (detect_end(s) == 1) {
+		free(s);
 		exit(0);
+	}
+	free(s);
 }

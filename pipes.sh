@@ -4,7 +4,7 @@
 ## Author: carbon_q.
 ## Contact: <carbonel.q@gmail.com> (github.com/yartFF)
 ## Created on 2016-04-21 12:28
-## 
+##
 ##
 STUDENT_NAME="./ai"
 BUFF_NAME="./n4s_buffer"

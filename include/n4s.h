@@ -6,18 +6,18 @@
 */
 
 #ifndef N4S_H_
-#define N4S_H_
+	#define N4S_H_
 
-#define START "start_simulation\n"
-#define STOP "stop_simulation\n"
-#define CLEAR "Track Cleared"
-#define LIDAR "get_info_lidar\n"
-#define FWD "car_forward:"
-#define BWD "car_backward:"
-#define WDIR "wheels_dir:"
+	#define START "start_simulation\n"
+	#define STOP "stop_simulation\n"
+	#define CLEAR "Track Cleared"
+	#define LIDAR "get_info_lidar\n"
+	#define FWD "car_forward:"
+	#define BWD "car_backward:"
+	#define WDIR "wheels_dir:"
+	#define SPEED 0.6
 
-typedef struct infos
-{
+typedef struct infos {
 	double left;
 	double right;
 	double mid;
