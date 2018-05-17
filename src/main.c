@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
+#include "get_next_line.h"
+#include "basic.h"
 #include "n4s.h"
 
 static void init_struct(infos_t *info)

@@ -24,7 +24,10 @@ typedef struct infos
 	double speed;
 } infos_t;
 
-void go_left(infos_t *info);
-void go_right(infos_t *info);
+int launch_ia(infos_t *info, char **tab);
+void control_speed(infos_t *info);
+void set_speed(double value);
+void set_direction(double value, int neg);
+int detect_end(char *str);
 
 #endif /* !N4S_H_ */

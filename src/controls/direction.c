@@ -5,6 +5,10 @@
 ** direction.c
 */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include "get_next_line.h"
 #include "basic.h"
 #include "n4s.h"
 
