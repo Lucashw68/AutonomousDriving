@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include "basic.h"
-#include "my_printf.h"
+#include "../my_printf.h"
 
 char *my_rev_str(char *str)
 {

@@ -7,7 +7,7 @@
 
 #include <unistd.h>
 #include "basic.h"
-#include "my_printf.h"
+#include "../my_printf.h"
 
 void my_put_nbr(int nb)
 {

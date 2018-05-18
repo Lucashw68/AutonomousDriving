@@ -6,7 +6,7 @@
 */
 
 #include "basic.h"
-#include "my_printf.h"
+#include "../my_printf.h"
 
 char *my_pstrcpy(char *dest, char const *src)
 {

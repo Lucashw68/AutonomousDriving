@@ -15,7 +15,7 @@
 	#define FWD "car_forward:"
 	#define BWD "car_backward:"
 	#define WDIR "wheels_dir:"
-	#define SPEED 0.6
+	#define SPEED 0.4
 
 typedef struct infos {
 	double left;
