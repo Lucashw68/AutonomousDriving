@@ -60,6 +60,20 @@ void handle_others(window_t *w);
 void handle_axis_x(float x);
 void handle_axis_y(float y);
 void draw(window_t *w);
+int button_xaby(window_t *w);
+int other_button(window_t *w);
+void handle_axis(window_t *w);
+void destroy_ressources(window_t *w);
+void create_sprite(window_t *w, int nb);
+void create_texture(window_t *w, int nb);
+void create_position(window_t *w, int nb);
+int load_textures(window_t *w);
+void set_position(window_t *w, int nb);
+int mouse_events(window_t *w);
+int keyboard_events(window_t *w);
+void set_textures(window_t *w, int nb);
+void confirm_position(window_t *w, int index);
+int joystick_events(window_t *w, float fps);
 
 /* Controls */
 void handle_axis_x(float x);
