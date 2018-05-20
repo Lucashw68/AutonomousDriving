@@ -25,6 +25,8 @@ GNL 	=	lib/gnl/
 
 PRINT	=	lib/print_lib/
 
+BONUS	=	bonus/
+
 RM	=	@rm -rf
 
 NAME	=	ai
@@ -40,11 +42,15 @@ $(NAME):	$(OBJ)
 		@gcc $(OBJ) $(CFLAGS) -o $(NAME) $(INCLUDE)
 		@echo '\n'$(YELLOW)"DONE"
 
+bonus:
+		@make -C $(BONUS)
+
 clean:
 		@$(RM) $(OBJ)
 		@make clean -C $(BASIC)
 		@make clean -C $(GNL)
 		@make clean -C $(PRINT)
+		@make clean -C $(BONUS)
 
 fclean:		clean
 		$(RM) $(NAME)
